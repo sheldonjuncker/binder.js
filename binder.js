@@ -12,7 +12,6 @@ var Binder = {
 		//Create binding for each element
 		for(var i=0; i<nodes.length; i++){
 			var binding = nodes[i].getAttribute('binder');
-			
 			Bound[binding] = nodes[i];
 		}
 	}
